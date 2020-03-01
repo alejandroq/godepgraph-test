@@ -6,6 +6,10 @@ This implementation is particular to Go.
 
 For additional commands and capabilities, look to the [`Makefile`](./Makefile).
 
+## Install `godepgraph`
+
+`go get github.com/kisielk/godepgraph`
+
 ## Application Package Topology
 
 ![dependencytree.png](./.github/dependencytree.png)

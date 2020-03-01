@@ -10,6 +10,10 @@ For additional commands and capabilities, look to the [`Makefile`](./Makefile).
 
 `go get github.com/kisielk/godepgraph`
 
+## Setup Commit Hook
+
+`cp .github/pre-commit .git/hooks/`
+
 ## Application Package Topology
 
 ![dependencytree.png](./.github/dependencytree.png)

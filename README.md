@@ -1,4 +1,4 @@
-# godepgraph_commithook
+# Go Dependency Graphs and Automated PR Processes
 
 Upon a Git commit, the dependecy tree documentation is updated to reflect the current application's package topology. 
 In an opinionated [`pull_request_template.md`](./.github/pull_request_template.md) this visual could be leveraged for review and preventing developers from accidently introducing any ungainly package relationships. 

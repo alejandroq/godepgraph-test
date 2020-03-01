@@ -10,7 +10,7 @@ For additional commands and capabilities, look to the [`Makefile`](./Makefile).
 
 ![dependencytree.png](./.github/dependencytree.png)
 
-*Quick notes on the topology above*
+*Quick notes on the topology above:*
 - Ideally a dependency tree should be short and flat - and this should be in ratio to program statements.
 - Too few packages given a high statement count likely means the application is purely concrete and has not declared any bounded contexts (in the zone of pain).
 - Too many interwoven packages, with a great height (provides the appearence of a hill), signifies incorrectly asserted bounded contexts (in the zone of pain).

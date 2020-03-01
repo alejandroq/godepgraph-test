@@ -1,6 +1,6 @@
 .PHONY: dependencytree
 dependencytree:
-	godepgraph -s cmd/main.go | dot -Tpng -o graph.png
+	godepgraph -s cmd/main.go | dot -Tpng -o .github/dependencytree.png
 
 .PHONY: start
 start:

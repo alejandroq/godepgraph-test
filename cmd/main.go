@@ -1,6 +1,6 @@
 package main
 
-import "github.com/alejandroq/godepgraph-test/internal/customer"
+import "github.com/alejandroq/godepgraph-commithook/internal/customer"
 
 func main() {
 	c := customer.Customer{}

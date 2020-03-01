@@ -6,9 +6,13 @@ This implementation is particular to Go.
 
 For additional commands and capabilities, look to the Makefile.
 
+## Application Package Topology
+
 ![dependencytree.png](./.github/dependencytree.png)
 
-- Ideally the dependency tree should be short and flat.
-- Too few packages given a high statement count likely means the application is purely concrete and hasn't declared any bounded contexts (zone of pain).
-- Too many interwoven packages, with a great height (gives the appearence of a hill), signifies incorrectly asserted bounded contexts (zone of pain).
-- Short and flat provided an appropriate ratio of statements signifies an application codebase that is potentially a modular monolith which is an ideal for shops expounding characteristics such as discovery and experimentation. An important attribute of the latter is the complexity be maintained low or the code architecture risks being within the zone of uselessness.
+*Quick notes on the topology above*
+- Ideally a dependency tree should be short and flat - and this should be in ratio to program statements.
+- Too few packages given a high statement count likely means the application is purely concrete and has not declared any bounded contexts (in the zone of pain).
+- Too many interwoven packages, with a great height (provides the appearence of a hill), signifies incorrectly asserted bounded contexts (in the zone of pain).
+- Short and flat provided an appropriate ratio of statements signifies an application codebase that is potentially a modular monolith, which is an ideal for shops expounding characteristics such as discovery and experimentation. This is despite the allergy the industry has taken to the word monolith. 
+- An important emphasis with the latter is the complexity be maintained low or the code architecture verges being within the zone of uselessness.

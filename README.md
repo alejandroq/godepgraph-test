@@ -4,7 +4,7 @@ Upon a Git commit, the dependecy tree documentation is updated to reflect the cu
 In an opinionated `pull_request_template.md` this visual could be leveraged for review and preventing developers from accidently introducing any ungainly package relationships. 
 This implementation is particular to Go.
 
-For additional commands and capabilities, look to the `Makefile`.
+For additional commands and capabilities, look to the [`Makefile`](./Makefile).
 
 ## Application Package Topology
 

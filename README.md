@@ -10,6 +10,10 @@ For additional commands and capabilities, look to the [`Makefile`](./Makefile).
 
 `go get github.com/kisielk/godepgraph`
 
+## Install `graphviz`
+
+`brew install graphviz`
+
 ## Setup Commit Hook
 
 `cp .github/pre-commit .git/hooks/`
